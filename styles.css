@@ -1,0 +1,52 @@
+body {
+	background: black;
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+} */
+.postcard {
+	background: white; /* Establece el fondo blanco */
+	width: 400px; /* Establece el ancho de 400px */
+	height: 300px; /* Establece la altura de 300px */
+	margin: auto; /* Centra el div horizontalmente */
+}
+
+/*POSTCARD HEADER*/
+.postcard-header {
+	display: flex;
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 350px;
+	margin: 0;
+}
+
+/*POSTCARD BODY*/
+.postcard-body {
+	display: flex;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 5;
+}
+input {
+	border: none; /* Esto elimina los bordes en los lados y arriba */
+	border-bottom: 1px solid grey; /* Esto agrega solo el borde inferior */
+}
+
+/*POSTCARD FOOTER*/
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: lightgray;
+	padding: 5;
+}
